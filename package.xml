@@ -578,6 +578,10 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Financial_Account__c.Account_Name__c</members>
+        <members>Financial_Account__c.Date_of_Assigmment__c</members>
+        <members>Financial_Account__c.Market_Value__c</members>
+        <members>Financial_Account__c.Year_of_Assignment__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1293,6 +1297,7 @@
         <members>ExpressionFilterCriteria</members>
         <members>ExternalEventMapping</members>
         <members>FeedItem</members>
+        <members>Financial_Account__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
@@ -1412,6 +1417,7 @@
         <members>Account_Management</members>
         <members>Account_Page</members>
         <members>App_Filtered_View</members>
+        <members>Custom_FA</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
         <members>Sales_Home</members>
@@ -1455,6 +1461,7 @@
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
+        <members>Financial_Account__c-Financial Account -PM</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
