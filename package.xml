@@ -6,6 +6,7 @@
         <name>AnimationRule</name>
     </types>
     <types>
+        <members>AR_AccountDuplicate_Helper</members>
         <members>AccountTriggerHandler</members>
         <members>AccountTriggerTest</members>
         <members>AccountUtils</members>
