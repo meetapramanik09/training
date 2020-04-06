@@ -98,6 +98,7 @@
         <members>Account.Site</members>
         <members>Account.TickerSymbol</members>
         <members>Account.Track_1__c</members>
+        <members>Account.Track_2__c</members>
         <members>Account.Tradestyle</members>
         <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
