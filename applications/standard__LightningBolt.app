@@ -15,5 +15,8 @@
     </profileActionOverrides>
     <tabs>standard-LightningBoltHome</tabs>
     <tabs>App_Filtered_View</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

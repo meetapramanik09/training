@@ -340,7 +340,6 @@
     </fields>
     <fields>
         <fullName>Birthdate</fullName>
-        <complianceGroup>HIPAA</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -361,7 +360,6 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <complianceGroup>GDPR</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -465,7 +463,6 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <complianceGroup>PII</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>

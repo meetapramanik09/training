@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>47.0</version>
+    <version>46.0</version>
     <types>
         <members>Milestones</members>
         <name>AnimationRule</name>
     </types>
     <types>
+        <members>AR_AccountDuplicate_Helper</members>
         <members>AccountTriggerHandler</members>
         <members>AccountTriggerTest</members>
         <members>AccountUtils</members>
@@ -1386,6 +1387,12 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Association__c-en_US</members>
+        <members>Financial_Account__c-en_US</members>
+        <members>Party__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
         <members>App_Filtered_View</members>
         <members>Association__c</members>
         <members>Financial_Account__c</members>
@@ -1434,6 +1441,11 @@
     <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>dotsquaremukesh</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
     </types>
     <types>
         <members>Account-Account %28Marketing%29 Layout</members>
@@ -1666,10 +1678,6 @@
         <name>ListView</name>
     </types>
     <types>
-        <members>news</members>
-        <name>ManagedContentType</name>
-    </types>
-    <types>
         <members>Milestones</members>
         <name>PathAssistant</name>
     </types>
@@ -1773,96 +1781,41 @@
     </types>
     <types>
         <members>Account</members>
-        <members>Actions</members>
         <members>Activities</members>
         <members>Address</members>
         <members>Analytics</members>
-        <members>Apex</members>
-        <members>AppExperience</members>
-        <members>Archive</members>
-        <members>Blockchain</members>
         <members>Bot</members>
         <members>BusinessHours</members>
-        <members>Campaign</members>
         <members>Case</members>
-        <members>Chatter</members>
-        <members>ChatterEmailsMD</members>
-        <members>Communities</members>
         <members>Company</members>
-        <members>ConnectedApp</members>
-        <members>Content</members>
         <members>Contract</members>
-        <members>Currency</members>
-        <members>DataDotCom</members>
-        <members>Deployment</members>
-        <members>DevHub</members>
-        <members>Discovery</members>
-        <members>EAC</members>
-        <members>EmailAdministration</members>
-        <members>EmailIntegration</members>
-        <members>EmailTemplate</members>
-        <members>EncryptionKey</members>
-        <members>EnhancedNotes</members>
         <members>Entitlement</members>
-        <members>Essentials</members>
-        <members>Event</members>
         <members>ExperienceBundle</members>
-        <members>ExternalServices</members>
         <members>FieldService</members>
         <members>FileUploadAndDownloadSecurity</members>
-        <members>FilesConnect</members>
-        <members>Flow</members>
         <members>Forecasting</members>
-        <members>Formula</members>
         <members>GoogleApps</members>
         <members>Ideas</members>
-        <members>Industries</members>
-        <members>InvocableAction</members>
         <members>IoT</members>
-        <members>IsvHammer</members>
         <members>Knowledge</members>
-        <members>Language</members>
-        <members>LeadConfig</members>
-        <members>LightningExperience</members>
         <members>LiveAgent</members>
         <members>Macro</members>
         <members>Mobile</members>
-        <members>MyDomain</members>
         <members>Name</members>
         <members>Notifications</members>
-        <members>ObjectLinking</members>
         <members>OmniChannel</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>Org</members>
         <members>OrgPreference</members>
-        <members>Pardot</members>
-        <members>PardotEinstein</members>
-        <members>PartyDataModel</members>
         <members>PathAssistant</members>
-        <members>Picklist</members>
-        <members>PlatformEncryption</members>
-        <members>Privacy</members>
         <members>Product</members>
         <members>Quote</members>
-        <members>RecordPage</members>
-        <members>RetailExecution</members>
-        <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
-        <members>Sharing</members>
-        <members>Site</members>
-        <members>SocialProfile</members>
-        <members>Survey</members>
-        <members>SystemNotification</members>
         <members>Territory2</members>
-        <members>Trailhead</members>
-        <members>TrialOrg</members>
-        <members>UserEngagement</members>
         <members>UserInterface</members>
         <members>UserManagement</members>
-        <members>Voice</members>
-        <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
     <types>
@@ -1991,18 +1944,20 @@
     <types>
         <members>Account</members>
         <members>Asset</members>
+        <members>Association__c</members>
         <members>Campaign</members>
         <members>Case</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
         <members>Event</members>
-        <members>JobProfile</members>
+        <members>Financial_Account__c</members>
         <members>Lead</members>
         <members>MaintenanceAsset</members>
         <members>MaintenancePlan</members>
         <members>Opportunity</members>
         <members>Order</members>
+        <members>Party__c</members>
         <members>ProductConsumed</members>
         <members>ProductItem</members>
         <members>ProductItemTransaction</members>

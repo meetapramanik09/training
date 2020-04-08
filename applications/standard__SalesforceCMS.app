@@ -9,8 +9,20 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Association__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Financial_Account__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Party__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

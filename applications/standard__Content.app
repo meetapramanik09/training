@@ -8,4 +8,7 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
 </CustomApplication>

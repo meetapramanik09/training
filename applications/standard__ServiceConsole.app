@@ -179,7 +179,19 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Association__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Financial_Account__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Party__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

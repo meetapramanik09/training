@@ -5,4 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
 </CustomApplication>

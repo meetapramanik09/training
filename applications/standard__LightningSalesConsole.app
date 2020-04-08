@@ -27,9 +27,21 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Financial_Account__c</tabs>
+    <tabs>Association__c</tabs>
+    <tabs>Party__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Association__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Financial_Account__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Party__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
